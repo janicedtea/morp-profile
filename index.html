@@ -1,4 +1,65 @@
-<h1>hiii</h1>
-<p>im janice</p>
-<p>i really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really like cats
-... kitty!! ^. .^₎ฅ</p>
+<head></head>
+<body>
+  <h1>hiii!!</h1>
+  <p>im janice</p>
+  <p>i really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really like cats... kitty!! ^. .^₎ฅ</p>
+  <div class="example">
+    <p>this is my first website :D</p>
+    <p>my friend's kitty!</p>
+    <img src="https://lh3.googleusercontent.com/pw/AP1GczMTp6qb7quDk5rT7Ze6cECRoCh5iipughxqLmd2gTa-5n1XYOcdRqmbStd_9Sv4soTSJiHFCp9FD8YQkU_0yo8sMV3aKN61ZJu8d6oRIg6VqZXhs97I86tnkK6OAD4J19VMxJeLZp-q4tgZv997T_981w=w688-h913-s-no-gm?authuser=0"/>
+  </div>
+
+</body>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+  body {
+    background-color: snow;
+    font-family: Pixelify Sans;
+  }
+
+  h1 {
+    color: midnightblue;
+    background-color: powderblue;
+    border: 2px dashed midnightblue;
+    padding: 3rem;
+    border-radius: 1rem;
+    rotate: 1deg;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    box-shadow: 0.5rem 0.5rem 0 midnightblue;
+  }
+  
+  .example {
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation: float 2s infinite alternate;
+    border: 1rem solid #1000;
+  }
+  .example img {
+  width: 25%;
+  height: auto;
+  }
+
+  h1:hover {
+    transform: translate(0.5rem, -0.5rem);
+    background-color: lavenderblush;
+  }
+
+  h1:active {
+    background-color: royalblue;
+    animation: spin 2s infinite;
+  }
+  
+  @keyframes float {
+    from { transform: translateY(-1rem); }
+    to { transform: translateY(1rem); }
+  }
+  
+  @keyframes spin {
+    from { rotate: 0deg; }
+    to { rotate: 360deg; }
+  }
+</style>
+<!-- 1 rem == 16px -->
